@@ -1,0 +1,10 @@
+int calculateArea(int length,int width){
+
+	int area = length * width;
+	if(area > 10){
+		print("Area is greater than 10");
+	}
+	else{
+		print("Area is less than 10");
+	}
+}
